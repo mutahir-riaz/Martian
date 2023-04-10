@@ -1,0 +1,80 @@
+#title{
+    font-size: 77px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 150px;
+}
+body{
+    background-color: black;
+}
+.buttton{
+    
+    border-radius: 3px;
+    background-color: rgb(26, 24, 24);
+    color: aliceblue;
+    border: 0px;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 17px;
+}
+  
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .search-form {
+    display: flex;
+  }
+  
+  .search-box {
+    position: relative;
+    flex: 1;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+  }
+  
+  button[type="submit"], button[type="button"] {
+    background-color:rgb(26, 24, 24);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    margin-right: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    width: auto;
+    margin-right: 17px;
+  }
+  
+  .mic-button {
+    background-color: white;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    margin-left: -2px;
+  }
+  
+  .fa {
+    font-size: 20px;
+  }
+  
