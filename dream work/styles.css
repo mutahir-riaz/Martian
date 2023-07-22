@@ -1,0 +1,155 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+.fa-facebook{
+    color: rgb(17, 54, 190);
+   margin-right: 20px;
+}
+.fa-twitter{
+    color: rgb(10, 96, 246);
+    margin-left: 30px;
+}
+.fa-instagram{
+    background: linear-gradient(45deg, #E4405F, #EFBB50);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 30px;
+}
+.fa-search{
+    font-size: 30px;
+}
+  /* Style the navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    
+    color: #fff;
+    padding: 10px;
+  }
+
+  /* Style the logo */
+  .navbar-logo {
+    margin-right: 10px;
+    font-size: 24px;
+    
+  }
+
+  /* Style the social media icons */
+  .navbar-social {
+    margin-right: 20px;
+    font-size: 40px;
+    margin-left: 300px;
+  }
+
+  /* Style the search icon */
+  .navbar-search {
+    margin-right: 10px;
+    font-size: 17px;
+    margin-left: 100px;
+    color: black;
+    font-weight: 100;
+  }
+
+  /* Style the navigation links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+  }
+
+  .navbar-links li {
+    margin-right: 15px;
+    margin-left: 30px;
+    font-size: 20px;
+    
+  }
+  
+.fa-youtube{
+    color: rgb(246, 10, 81);
+    margin-left: 30px;
+}
+
+.movie{
+  color: rgb(12, 12, 152);
+  font-weight: 700;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-dreamwork{
+  background-color: rgb(3, 42, 182);
+  color: aliceblue !important;
+}
+.about-dreamwork p{
+  margin-top: 30px;
+  font-size: 19px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-dreamwork h1{
+  text-align: center;
+  padding-top: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+.tab-titles{
+  display: flex;
+  margin-left: 530px !important;
+  margin-top: 60px !important;
+  margin: 20px 0 40px;
+}
+.tab-links{
+  margin-right: 50px;
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+ 
+}
+.tab-links:hover{
+  color: rgb(0, 136, 255);
+}
+.tab-links::after{
+  content: "";
+  width: 0;
+  height: 3px;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+.tab-links.active-link::after{
+width: 30%;
+}
+.tab-contents ul li{
+  list-style: none;
+  margin: 10px 0;
+
+}
+.tab-contents ul li span{
+  color: #b54769;
+  font-size: 14px;
+}
+.tab-contents{
+  display: none;
+}
+.tab-contents.active-tab{
+  display: block;
+  
+}
+  /* Add responsive styles for small screens */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+
+    .navbar-links {
+      margin-top: 10px;
+    }
+
+    .navbar-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }

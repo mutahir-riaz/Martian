@@ -1,0 +1,73 @@
+body{
+  background-color: black;
+}
+.othernonmetal{
+  background-color: rgb(3, 146, 3);
+}
+.alkalimetals{
+  background-color: rgb(203, 146, 14);
+}
+.lathanoids{
+  background-color: rgb(146, 71, 6);
+}
+.aktinoids{
+  background-color: rgb(70, 15, 148);
+}
+.metaloids{
+  background-color: aquamarine;
+}
+.posttrans{
+ color: aliceblue;
+  background-color: rgb(10, 58, 110);
+}
+.unknown{
+  background-color: grey;
+
+}
+.alkaliearthmetals{
+  background-color: rgb(227, 227, 7);
+}
+.noblegases{
+  color: aliceblue;
+  background-color: rgb(29, 54, 154);
+}
+.transtationmetals{
+  background-color: rgb(203, 62, 11);
+
+}
+nav {
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.table1{
+  empty-cells: hide;
+  align-items: center;
+  font-size: 20px;
+}
+.table2{
+ align-items: center;
+ align-items: center;
+ font-size: 20px;
+
+}
+h1{
+  font-size: 50px;
+  color: aliceblue;
+  text-shadow: 10px 10px 10px red;
+}
