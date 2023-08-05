@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    height: 80px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(46, 66, 214);
+  }
+  
+  .logo {
+    margin-right: 600px;
+    color: white;
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+  }
+  
+  .login_in {
+  }
+  
+  .login_in p {
+    color: wheat;
+    font-size: 11px;
+    margin-left: 205px;
+  }
+  
+  #email {
+    height: 22px;
+    margin-right: 20px;
+  }
+  
+  #password {
+    height: 22px;
+  }
+  
+  .button {
+    color: aliceblue;
+    margin-left: 30px;
+    background-color: rgb(55, 78, 255);
+  }
+  .body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .worldwide {
+    background-color: #f8e9e9;
+    width: 50%;
+    margin-right: 0;
+    
+    float: left;
+  }
+  
+  .worldwide img {
+    margin-left: 10px;
+  }
+  
+  .worldwide h3 {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 90px;
+    color: rgb(24, 23, 118);
+  }
+  
+  .login {
+    margin-left: 0;
+    background-color: #f8e9e9;
+    width: 50%;
+    padding-bottom: 600px;
+    float: left;
+  }
+  .login h1{
+    font-size: 33px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .login p{
+    font-size: 19px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .form_name{
+    width: 200px;
+    height: 25px;
+    border-width: 1px;
+    border-color: rgb(107, 96, 96);
+    border-radius: 3px;
+  }
+  .form_email{
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 3px;
+    width: 410px;
+    margin-top: 13px;
+    height: 27px;
+  }
+  .form_password{
+    width: 410px;
+    margin-top: 13px;
+    height: 25px;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  .input{
+    padding-left: 10px;
+  }
+  .form_birth{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+  }
+  .login pre{
+    font-size: 11px;
+    font-weight: 100;
+    color: rgb(66, 64, 64);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+  }
+  .green_wala_button{
+    width: 147px;
+    height: 30px;
+    border-width: 0px;
+    color: #f8e9e9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: rgb(94, 187, 66);
+  }
+  /* .body {
+    align-items: center;
+    display: flex;
+    background-color: #f5ebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .worldwide {
+    background-color: #0b0808;
+    width: 50vw;
+    margin-right: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    float: left;
+  }
+  
+  .worldwide img {
+    margin-left: 10px;
+  }
+  
+  .worldwide h3 {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 90px;
+    color: rgb(24, 23, 118);
+  }
+  .worldwide, .login {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .login {
+    margin-left: 0;
+    background-color: aqua;
+    padding-bottom: 600px;
+    float: left;
+  } */
